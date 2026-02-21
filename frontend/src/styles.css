@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: #20293a;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+section {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #eef1f7;
+  padding: 10px;
+  text-align: left;
+}
+
+pre {
+  white-space: pre-wrap;
+  background: #10151f;
+  color: #ecf2ff;
+  padding: 12px;
+  border-radius: 8px;
+}
