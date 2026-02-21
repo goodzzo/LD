@@ -17,6 +17,10 @@ def generate_company_report(ticker: str, company: dict) -> str:
         "model": "llama3.1",
         "prompt": _build_prompt(ticker, company),
         "stream": False,
+        "options": {
+            "temperature": 0.4, # 분석의 일관성을 위해 온도를 낮게 설정
+            "top_p": 0.9
+        }
     }
 
     try:
